@@ -374,6 +374,30 @@ tr:nth-child(odd) {
 /* footer */
 .footer {
     background-color: #19242E;
-    color: #ffffff;
-    
+    color: #ffffff;    
+}
+/* Media Queries */
+@media all and (max-width: 768px) {
+    .flex, .flex2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero-heading {
+        font-size: 48px;
+    }
+    .box {
+        width: 100%;
+    }
+    .text {
+        width: 100%;
+    }
+    .location {
+        width: 100%;
+    }
+    .header-menu a {
+        width: 80%;
+    }
+    .imglogo {
+        width: 60%;
+    }
 }
